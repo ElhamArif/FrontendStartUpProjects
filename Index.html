@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple paint App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Css file.Css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="tools-area">
+                <div class="tools">
+                    <label class="eraser">Eraser</label>
+                <label class="brush active">Brush</label>
+                <label class="color" for="color-picker">Choose-Color</label>
+                <input type="color" id="color-picker">
+                <input type="range" id="range" min="1" max="10">
+                </div>
+                <div class="btns">
+                    <button class="save">Save</button>
+                    <button class="clear">Clear</button>
+                </div>
+            </div>
+            <div class="draw-area">
+                <canvas></canvas>
+            </div>
+        </div>
+        <script src="Js file.js"></script>
+    </body>
+</html>
